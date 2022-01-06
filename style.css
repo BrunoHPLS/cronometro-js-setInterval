@@ -72,16 +72,18 @@ button:active{
 
 #bt-play{
     background-color: #1FA776;
-    border-right: none;
-    border-radius: 50px 0px 0px 50px;
+    border-right-width: 2.5px;
+    border-radius: 50px 15px 15px 50px;
 }
 
 #bt-pause{
+    border-radius: 15px;
+    border-width: 5px 2.5px;
     background-color: #1B788A;
 }
 
 #bt-stop{
     background-color: #F46839;
-    border-left: none;
-    border-radius: 0px 50px 50px 0px;
+    border-left-width: 2.5px;
+    border-radius: 15px 50px 50px 15px;
 }
